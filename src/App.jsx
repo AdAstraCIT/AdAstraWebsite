@@ -1,5 +1,5 @@
 import './index.css'
-import { BrowserRouter, Route,Router,Routes, Switch } from 'react-router-dom';
+import { BrowserRouter, Route,Router,Routes,  } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import Merch from './pages/Merch';
@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 function App() {
   return (
-   <Router>
+   <BrowserRouter>
     <NavBar/>
     <Routes>
       <Route path="/home" element={
@@ -28,7 +28,7 @@ function App() {
         <Route path="/about-us" element={<About />} />
         <Route path="/merch" element={<Merch/>}/>
     </Routes>
-   </Router>
+   </BrowserRouter>
   );
 }
 
