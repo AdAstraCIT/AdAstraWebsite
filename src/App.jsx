@@ -1,5 +1,5 @@
 import './index.css'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route,Router,Routes, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import Merch from './pages/Merch';
