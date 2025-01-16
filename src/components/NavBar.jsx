@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="z-50 flex items-center justify-between px-10 backdrop-blur-sm backdrop-brightness-75 backdrop-saturate-150 shadow-lg mt-6 rounded-full w-11/12 fixed left-1/2 transform -translate-x-1/2 h-16">
-      <Link to="/home" className="flex justify-center md:justify-start w-full md:w-auto">
+      <Link to="/" className="flex justify-center md:justify-start w-full md:w-auto">
         <img alt="AdAstraLogo" className="h-5 w-auto" src={Logo} />
       </Link>
 
