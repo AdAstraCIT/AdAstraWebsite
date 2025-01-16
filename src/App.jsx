@@ -1,8 +1,5 @@
-import { useState } from 'react'
-
-import viteLogo from '/vite.svg'
 import './index.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import Merch from './pages/Merch';
